@@ -41,6 +41,11 @@ public class CardTrickICE1 {
         System.out.print("Input suites:");
         String suit = obj.nextLine();
         
+        
+        Card luckyCard = new Card(); //hard coded
+       luckyCard.setValue(7);
+       luckyCard.setSuits("clubs");
+        
         //step 3: match with array 
         boolean key= false;
         for (Card magicHand1 : magicHand) {
